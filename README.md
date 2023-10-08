@@ -1,2 +1,2 @@
 # JavaScript-Classroom
-code repo for javascript series 
+code repo for javascript series
