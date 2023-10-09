@@ -75,3 +75,35 @@ object
 object
 function object
 */
+
+// *****************************MEMORY IN JAVASCRIPT*******************
+
+
+/*
+ two types of memory
+
+ 1: stack memoory (for all primitive datatype)
+ 2: heap memory (Non primitive datatype)
+
+
+*/
+let myYoutubename = "Ns000356"
+let anothername = myYoutubename
+anothername  = "chai aur code"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+
+let userTwo = userOne
+
+userTwo.email = "naveen@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
